@@ -48,7 +48,7 @@ from random import randint
 import discord
 from discord.ext import commands
 
-from exceptions import InvalidChannelTypeException
+from malcord.exceptions import InvalidChannelTypeException
 
 TEXT_CHANNEL = 1
 VOICE_CHANNEL = 2

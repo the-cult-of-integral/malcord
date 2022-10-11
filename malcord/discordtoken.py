@@ -49,7 +49,7 @@ from selenium import webdriver
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 
-from exceptions import InvalidLoginActionException, InvalidTokenException
+from malcord.exceptions import InvalidLoginActionException, InvalidTokenException
 
 LA_NONE = 0
 LA_REMOVE_FRIENDS = 1
